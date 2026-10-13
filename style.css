@@ -104,10 +104,27 @@ section a:hover {
     color: #38bdf8;
 }
 section {
-    transition: transform 0.3, border-color 0.3;
+    transition: transform 0.3s, border-color 0.3s;
 }
 section:hover {
     transform: translatey(-4px);
     border-color: #38bdf8;
     
+}
+
+.Logica-de-programacao{
+    color: #a3d1e0;
+    text-decoration:none;
+    transition: color 0.3s, transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+    border: 2px solid #334155;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.Logica-de-programacao:hover{
+    color: #38bdf8;
+    transform: translatey(-4px);
+    border-color: #38bdf8;
+    box-shadow: 10px 10px 0px rgba(0, 255, 255, 0.5);
 }
