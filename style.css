@@ -126,18 +126,25 @@ section a  {
     display: inline-block;
     text-decoration:none;
     color: #a3d1e0;
-    transform: transition 1.0s, box-shadow 1.0s;
+    transition: transform 3.0s, box-shadow 1.0s; 
 }
 
 
 section a:hover {
     color: #38bdf8;
     transform: translateY(-4px);
-    border-radius: 30px;
-    padding: 5px;
+    border-radius: 15px;
+    padding: 2.5px;
     box-shadow: 4px 0px 15px rgba(0, 255, 255, 1)
 }
 
 div h3 {
     line-height: 2.5;
+}
+
+section a img  {
+    width: 22.5px;
+    height:22.5px;
+    vertical-align: middle;
+    margin-right: 8px
 }
